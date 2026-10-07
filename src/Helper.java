@@ -140,7 +140,17 @@ public class Helper {
             ans = input.nextLine();
             System.out.print(lines[i]);
         }
+        System.out.println("\nTranscription ended....");
 
+        for (int i = 0; i < 5; i++){
+            System.out.println();
+        }
+
+        System.out.println("==========================================");
+        System.out.println("=        Flowtica Scribe Demo            =");
+        System.out.println("==========================================");
+        System.out.println("  Would you like to summarize transcript?  ");
+        System.out.println("summary by Flowtica Scribe This is an audio transcript of the book “Mr. Brown Can Moo! Can You?” by Dr. Seuss. It celebrates the joy of sound and imagination through the character Mr. Brown, who can imitate all sorts of noises—from a cow’s “moo” to a buzzing bee. The book invites children to join in, encouraging playful participation and listening skills. Its rhythmic, repetitive style makes it both fun to read aloud and a gentle introduction to phonetic awareness. ");
 }
 }
 
